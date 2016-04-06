@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Britta Leigh Rodenbeck Portfolio">
+	<meta name="keywords" content="HTML, CSS, Britta, Leigh, Rodenbeck, portfolio, web design, web development">
+	<meta name="author" content="Britta Leigh Rodenbeck">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<title>Britta Rodenbeck | Contact</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="page-wrap">
+		<header>
+			<h1>BRITTA RODENBECK</h1>
+		</header>
+		<nav>
+			<ul class="img-rounded box-shadow">
+				<li><a href="index.html">home</a></li>
+				<li><a href="about.html">about</a></li>
+				<li><a href="#" class="active">contact</a></li>
+			</ul>
+		</nav>
+		<div class="info-wrap">
+			<hr/><h2>Contact</h2><hr/>
+			<div class="row">
+				<div class="col-6">
+					<p>If you want to contact me or connect with me, please feel free to use the information below or the form to the right.</p>
+					<p>E-mail me <a href="mailto:brodenbeckdesign@gmail.com">here</a>.</p>
+					<p>(815) 222-8436</p>
+					<p>Twitter: <a href="https://twitter.com/brodenbeck_des">@brodenbeck_des</a> &amp; <a href="https://twitter.com/brodenbeck">@brodenbeck</a></p>
+					<p>Instagram: <a href="https://www.instagram.com/brodenbeckdesign/">@brodenbeckdesign</a> &amp; <a href="https://www.instagram.com/b_rodenbeck/">@b_rodenbeck</a></p>
+				</div><!--ends col-6 div-->
+				<div class="col-6">
+					<div class="form-container">
+						<!-- action & method commented out; causes default e-mail client to open upon submit, losing js capabilities-->
+						<form id="contact"> <!-- action="mailto:brodenbeckdesign@gmail.com" method="post"-->
+							<h3 style="font-size: 40px; margin: 10px;">Contact Form</h3><hr/>
+							<p style="text-align: center;">Contact me today, and get a reply within 24 hours.</p>
+							<fieldset>
+								<input id="name" placeholder="Your name" type="text" tabindex="1" required autofocus />
+							</fieldset>
+							<fieldset>
+								<input placeholder="Your e-mail address" type="text" tabindex="2" required />
+							</fieldset>
+							<fieldset>
+								<textarea placeholder="Type your message here..." tabindex="3" required></textarea>
+							</fieldset>
+							<fieldset>
+								<button name="submit" type="submit" id="contact-submit" onClick="submitAlert('name')">Submit</button>
+							</fieldset>
+						</form>
+					</div><!--ends form-container div-->
+				</div><!--ends col-6 form div-->
+			</div><!--ends row div-->
+		</div><!--ends info-wrap div-->
+	</div><!--ends page-wrap div-->
+	<footer>
+		<p>&copy; Britta Rodenbeck 2016</p>
+	</footer>
+	<script type="text/javascript" src="portfolio.js"></script>
+</body>
+</html>
