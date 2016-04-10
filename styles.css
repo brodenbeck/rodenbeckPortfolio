@@ -218,7 +218,7 @@ footer > p {
 	color: #000000;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] {
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="button"] {
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	width: 100%;
@@ -241,7 +241,7 @@ fieldset {
 	height: 100px;
 }
 
-#contact button[type="submit"] {
+#contact button[type="button"] {
 	border: none;
 	background-color: #d3b565;
 	color: #fffff0;
@@ -252,7 +252,7 @@ fieldset {
 	cursor: pointer;
 }
 
-#contact button[type="submit"]:hover {
+#contact button[type="button"]:hover {
 	background-color: #fffff0;
 	color: #d3b565;
 }
