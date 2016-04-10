@@ -17,7 +17,7 @@ html, body {
 }
 
 @font-face {
-	font-family: 'sweet-pea';
+	font-family: 'always-forever';
 	src: url(fonts/sweet-pea.ttf);
 }
 
@@ -31,10 +31,10 @@ h1 {
 }
 
 h2 {
-	font-family: 'sweet-pea', cursive;
+	font-family: 'always-forever', cursive;
 	text-align: center;
 	font-size: 65px;
-	letter-spacing: -6px;
+	letter-spacing: 3px;
 	padding: 0;
 	margin: 0;
 	color: #f5b9b2;
@@ -42,9 +42,9 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-	font-family: 'sweet-pea', cursive;
+	font-family: 'always-forever', cursive;
 	text-align: center;
-	letter-spacing: -3px;
+	letter-spacing: 3px;
 }
 
 p {
@@ -97,7 +97,7 @@ li a {
 	width: 220px;
 	padding: 10px 10px 10px 10px;
 	text-decoration: none;
-	font-family: 'sweet-pea', cursive;
+	font-family: 'always-forever', cursive;
 	font-size: 20px;
 }
 
