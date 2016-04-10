@@ -94,11 +94,11 @@ li a {
 	display: block;
 	color: #717175;
 	text-align: center;
-	width: 220px;
-	padding: 10px 10px 10px 10px;
+	width: 124px;
+	padding: 20px 10px 10px 10px;
 	text-decoration: none;
 	font-family: 'always-forever', cursive;
-	font-size: 20px;
+	font-size: 40px;
 }
 
 li a:hover {
