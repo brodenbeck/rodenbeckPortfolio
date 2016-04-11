@@ -52,6 +52,15 @@ p {
 	color: #717175;
 }
 
+.center-p {
+	text-align: center;
+}
+
+.contact-form-title {
+	font-size: 40px;
+	margin: 10px;
+}
+
 p a {
 	color: #000000;
 	text-decoration: none;
@@ -103,6 +112,10 @@ li a {
 
 li a:hover {
 	background-color: #decda0;
+}
+
+.img-fill {
+	width: 100%;
 }
 
 .active {
